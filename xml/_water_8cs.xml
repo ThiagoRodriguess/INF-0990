@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="_water_8cs" kind="file" language="C#">
+    <compoundname>Water.cs</compoundname>
+    <innerclass refid="class_water" prot="public">Water</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4" refid="class_water" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_water" kindref="compound">Water</ref><sp/>:<sp/><ref refid="class_obstacle" kindref="compound">Obstacle</ref><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_water_1ad638e85eb985070a0ce2adf5a5b4e1fa" kindref="member">Water</ref>()<sp/>:<sp/>base(</highlight><highlight class="stringliteral">&quot;##<sp/>&quot;</highlight><highlight class="normal">){}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Water.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_robot" kind="class" language="C#" prot="public">
+    <compoundname>Robot</compoundname>
+    <basecompoundref refid="class_item_map" prot="public" virt="non-virtual">ItemMap</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_robot_1ab223ed3a7b95380fa5d0da16ac864265" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_map" kindref="compound">Map</ref></type>
+        <definition>Map Robot.map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <qualifiedname>Robot.map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="5" column="16" bodyfile="Robot.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_robot_1ad7d9a7fd949f73f86f62e0d5247b212a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Robot.energy</definition>
+        <argsstring></argsstring>
+        <name>energy</name>
+        <qualifiedname>Robot.energy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="8" column="16" bodyfile="Robot.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_robot_1a7f0cfac33263c784309980ca9ae8e269" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Robot.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Robot.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="6" column="17" bodyfile="Robot.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_robot_1a708cd02fd45bd76468a3c6356cbfae4d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Robot.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>Robot.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="6" column="19" bodyfile="Robot.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_robot_1a5906cfb73e61d2751213d99347e91e77" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_jewel" kindref="compound">Jewel</ref> &gt;</type>
+        <definition>List&lt;Jewel&gt; Robot.Bag</definition>
+        <argsstring></argsstring>
+        <name>Bag</name>
+        <qualifiedname>Robot.Bag</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_jewel" kindref="compound">Jewel</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="7" column="18" bodyfile="Robot.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_robot_1a48fa97b9470539fc6675cc90b1754c0f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Robot.int</definition>
+        <argsstring></argsstring>
+        <name>int</name>
+        <qualifiedname>Robot.int</qualifiedname>
+        <briefdescription>
+<para>Responsável por contar a quantidade de pontos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="137" column="13" bodyfile="Robot.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_robot_1a587a46db9325cb906a2848c4634a8b7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Robot.Robot</definition>
+        <argsstring>(Map map, int x=0, int y=0, int energy=5)</argsstring>
+        <name>Robot</name>
+        <qualifiedname>Robot.Robot</qualifiedname>
+        <param>
+          <type><ref refid="class_map" kindref="compound">Map</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>energy</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+<para>Responsável por colocar o robo em sua posição inicial, atribuir energia que inicia o nível. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="13" column="12" bodyfile="Robot.cs" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_robot_1aece1065f74f56f36ebe2ab49c111ac3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.MoveNorth</definition>
+        <argsstring>()</argsstring>
+        <name>MoveNorth</name>
+        <qualifiedname>Robot.MoveNorth</qualifiedname>
+        <briefdescription>
+<para>Responsável pela movimentação. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="23" column="17" bodyfile="Robot.cs" bodystart="23" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_robot_1af614ee8ec8176f57157bb80dfe4b398f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.MoveSouth</definition>
+        <argsstring>()</argsstring>
+        <name>MoveSouth</name>
+        <qualifiedname>Robot.MoveSouth</qualifiedname>
+        <briefdescription>
+<para>Responsável pela movimentação. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="47" column="17" bodyfile="Robot.cs" bodystart="47" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_robot_1abbc64a8c8407f60b13b28f124ca378f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.MoveEast</definition>
+        <argsstring>()</argsstring>
+        <name>MoveEast</name>
+        <qualifiedname>Robot.MoveEast</qualifiedname>
+        <briefdescription>
+<para>Responsável pela movimentação. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="71" column="17" bodyfile="Robot.cs" bodystart="71" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_robot_1a0c9fba01846ea6d8377d7fed4591d24a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.MoveWest</definition>
+        <argsstring>()</argsstring>
+        <name>MoveWest</name>
+        <qualifiedname>Robot.MoveWest</qualifiedname>
+        <briefdescription>
+<para>Responsável pela movimentação. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="95" column="17" bodyfile="Robot.cs" bodystart="95" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_robot_1af06758acca9f2fd9c6234b736ae60d0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <qualifiedname>Robot.Get</qualifiedname>
+        <briefdescription>
+<para>Responsável por recarregar a energia do robo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="119" column="17" bodyfile="Robot.cs" bodystart="119" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_robot_1a9f9876e632737fedf586832e7712e1c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.Print</definition>
+        <argsstring>()</argsstring>
+        <name>Print</name>
+        <qualifiedname>Robot.Print</qualifiedname>
+        <briefdescription>
+<para>Responsável por imprimir a quantidade de itens, pontos e energia. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="147" column="17" bodyfile="Robot.cs" bodystart="147" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_robot_1a50e016195f79e59918f40f351eb1f2f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Robot.HasEnergy</definition>
+        <argsstring>()</argsstring>
+        <name>HasEnergy</name>
+        <qualifiedname>Robot.HasEnergy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="153" column="17" bodyfile="Robot.cs" bodystart="153" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_robot_1a16f086f03eaf32c4919e137977d0962f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Robot.GetBagInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetBagInfo</name>
+        <qualifiedname>Robot.GetBagInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="137" column="21" bodyfile="Robot.cs" bodystart="137" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe responsável pelo robo, sua interação com o mapa e os itens. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="1">
+        <label>Robot</label>
+        <link refid="class_robot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="1">
+        <label>Robot</label>
+        <link refid="class_robot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Robot.cs" line="4" column="7" bodyfile="Robot.cs" bodystart="4" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_robot_1a5906cfb73e61d2751213d99347e91e77" prot="private" virt="non-virtual"><scope>Robot</scope><name>Bag</name></member>
+      <member refid="class_robot_1ad7d9a7fd949f73f86f62e0d5247b212a" prot="public" virt="non-virtual"><scope>Robot</scope><name>energy</name></member>
+      <member refid="class_robot_1af06758acca9f2fd9c6234b736ae60d0e" prot="public" virt="non-virtual"><scope>Robot</scope><name>Get</name></member>
+      <member refid="class_robot_1a16f086f03eaf32c4919e137977d0962f" prot="private" virt="non-virtual"><scope>Robot</scope><name>GetBagInfo</name></member>
+      <member refid="class_robot_1a50e016195f79e59918f40f351eb1f2f4" prot="public" virt="non-virtual"><scope>Robot</scope><name>HasEnergy</name></member>
+      <member refid="class_robot_1a48fa97b9470539fc6675cc90b1754c0f" prot="private" virt="non-virtual"><scope>Robot</scope><name>int</name></member>
+      <member refid="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" virt="non-virtual"><scope>Robot</scope><name>ItemMap</name></member>
+      <member refid="class_robot_1ab223ed3a7b95380fa5d0da16ac864265" prot="public" virt="non-virtual"><scope>Robot</scope><name>map</name></member>
+      <member refid="class_robot_1abbc64a8c8407f60b13b28f124ca378f7" prot="public" virt="non-virtual"><scope>Robot</scope><name>MoveEast</name></member>
+      <member refid="class_robot_1aece1065f74f56f36ebe2ab49c111ac3c" prot="public" virt="non-virtual"><scope>Robot</scope><name>MoveNorth</name></member>
+      <member refid="class_robot_1af614ee8ec8176f57157bb80dfe4b398f" prot="public" virt="non-virtual"><scope>Robot</scope><name>MoveSouth</name></member>
+      <member refid="class_robot_1a0c9fba01846ea6d8377d7fed4591d24a" prot="public" virt="non-virtual"><scope>Robot</scope><name>MoveWest</name></member>
+      <member refid="class_robot_1a9f9876e632737fedf586832e7712e1c5" prot="public" virt="non-virtual"><scope>Robot</scope><name>Print</name></member>
+      <member refid="class_robot_1a587a46db9325cb906a2848c4634a8b7f" prot="public" virt="non-virtual"><scope>Robot</scope><name>Robot</name></member>
+      <member refid="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" virt="non-virtual"><scope>Robot</scope><name>ToString</name></member>
+      <member refid="class_robot_1a7f0cfac33263c784309980ca9ae8e269" prot="private" virt="non-virtual"><scope>Robot</scope><name>x</name></member>
+      <member refid="class_robot_1a708cd02fd45bd76468a3c6356cbfae4d" prot="private" virt="non-virtual"><scope>Robot</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

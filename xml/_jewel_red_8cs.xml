@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="_jewel_red_8cs" kind="file" language="C#">
+    <compoundname>JewelRed.cs</compoundname>
+    <innerclass refid="class_jewel_red" prot="public">JewelRed</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4" refid="class_jewel_red" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_jewel_red" kindref="compound">JewelRed</ref><sp/>:<sp/><ref refid="class_jewel" kindref="compound">Jewel</ref>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_jewel_red_1a82cf9c65d1bd39b8a772214daf2c8f58" kindref="member">JewelRed</ref>()<sp/>:<sp/>base(</highlight><highlight class="stringliteral">&quot;JR<sp/>&quot;</highlight><highlight class="normal">,<sp/>100){}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JewelRed.cs"/>
+  </compounddef>
+</doxygen>

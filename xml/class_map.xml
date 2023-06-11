@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_map" kind="class" language="C#" prot="public">
+    <compoundname>Map</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_map_1aab82e8a7ed4c1a55d773cffebf0b0c4d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_item_map" kindref="compound">ItemMap</ref>[,]</type>
+        <definition>ItemMap [,] Map.Matriz</definition>
+        <argsstring></argsstring>
+        <name>Matriz</name>
+        <qualifiedname>Map.Matriz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="5" column="21" bodyfile="Map.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_map_1a719722cf9ff9a60065ba3189a64f121b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int Map.h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <qualifiedname>Map.h</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="6" column="16" bodyfile="Map.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_map_1a63b4597ab80572da3ea5def454b4eced" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int Map.w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>Map.w</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="7" column="16" bodyfile="Map.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_map_1a2a52033bc07a7ccc160285a93484513e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Map.Map</definition>
+        <argsstring>(int w=10, int h=10, int level=1)</argsstring>
+        <name>Map</name>
+        <qualifiedname>Map.Map</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+          <defval>10</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+          <defval>10</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Classe reponsável por gerar o mapa com tamanho 10x10. Posteriormente conforme avança, incrementa +1 ao tamanho do mapa, até o limite 30x30. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="13" column="12" bodyfile="Map.cs" bodystart="13" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1a6ff9fe11efd0d163cbf10277a29bb6a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Map.Insert</definition>
+        <argsstring>(ItemMap Item, int x, int y)</argsstring>
+        <name>Insert</name>
+        <qualifiedname>Map.Insert</qualifiedname>
+        <param>
+          <type><ref refid="class_item_map" kindref="compound">ItemMap</ref></type>
+          <declname>Item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Responsável por posicionar itens no mapa dentro da matriz. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="29" column="17" bodyfile="Map.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1ae2cb91de719b12493e9c954f6feb81fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Map.Update</definition>
+        <argsstring>(int x_old, int y_old, int x, int y)</argsstring>
+        <name>Update</name>
+        <qualifiedname>Map.Update</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x_old</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y_old</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Responsável por atualizar o Status do mapa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="36" column="16" bodyfile="Map.cs" bodystart="36" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1a503c1188981bd56583b4036ef70c67aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_jewel" kindref="compound">Jewel</ref> &gt;</type>
+        <definition>List&lt; Jewel &gt; Map.GetJewels</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>GetJewels</name>
+        <qualifiedname>Map.GetJewels</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Responsável por atualizar a quantidade de Jóias coletadas. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="64" column="17" bodyfile="Map.cs" bodystart="64" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1a58b5d5bdae42092eec6502666412ad12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_rechargeable" kindref="compound">Rechargeable</ref>?</type>
+        <definition>Rechargeable? Map.GetRechargeable</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>GetRechargeable</name>
+        <qualifiedname>Map.GetRechargeable</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Responsável por incrementar a energia do robo conforme coletados itens válidos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="88" column="25" bodyfile="Map.cs" bodystart="88" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1a688c2704d7a5b3268433d1c8fc5333b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Map.Radiation</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Radiation</name>
+        <qualifiedname>Map.Radiation</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Responsável por verificar se há radiação ao redor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="123" column="16" bodyfile="Map.cs" bodystart="123" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1aff8e2d6feab4dea63ab4537c0898b303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Map.Print</definition>
+        <argsstring>()</argsstring>
+        <name>Print</name>
+        <qualifiedname>Map.Print</qualifiedname>
+        <briefdescription>
+<para>Responsável por printar o mapa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="142" column="17" bodyfile="Map.cs" bodystart="142" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1a2107d47822831fb927575581bc107f85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Map.IsDone</definition>
+        <argsstring>()</argsstring>
+        <name>IsDone</name>
+        <qualifiedname>Map.IsDone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Booleana por checar se as joias do mapa acabaram </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="153" column="17" bodyfile="Map.cs" bodystart="153" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_map_1a3ece09ebeb73e5288a93117edc7ac99b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_jewel" kindref="compound">Jewel</ref>?</type>
+        <definition>Jewel? Map.GetJewel</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>GetJewel</name>
+        <qualifiedname>Map.GetJewel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Responsável por atualizar a posição do mapa onde havia a joia para um item vazio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="76" column="19" bodyfile="Map.cs" bodystart="76" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1a4943498c9e9b166cf480205602e41ebc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[,]</type>
+        <definition>int[,] Map.GenerateCoord</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>GenerateCoord</name>
+        <qualifiedname>Map.GenerateCoord</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Responsável por Gerar coordenadas. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="97" column="17" bodyfile="Map.cs" bodystart="97" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1a87c52673cfd405cb9f26cfd34eb690dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Map.IsAllowed</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>IsAllowed</name>
+        <qualifiedname>Map.IsAllowed</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Booleana que verifica se a posição está vazia ou contem radiação e permite que o robo transite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="110" column="18" bodyfile="Map.cs" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1ab326bc3a1505c760330718c34692e9cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Map.IsRadioctive</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>IsRadioctive</name>
+        <qualifiedname>Map.IsRadioctive</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Booleana que verifica se a posição está vazia ou contem radiação e permite que o robo transite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="116" column="18" bodyfile="Map.cs" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1a137179d359e82a5508c41bba28fd3d18" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Map.GenerateFixed</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateFixed</name>
+        <qualifiedname>Map.GenerateFixed</qualifiedname>
+        <briefdescription>
+<para>Gera a posição inicial das Joias, água e árvores no primeiro nível. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="165" column="18" bodyfile="Map.cs" bodystart="165" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_map_1a1a86a3d838134dda2f452f695145d25f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Map.GenerateRandom</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateRandom</name>
+        <qualifiedname>Map.GenerateRandom</qualifiedname>
+        <briefdescription>
+<para>Gera posição aleatória dos itens do mapa no nível 2 em diante. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="190" column="18" bodyfile="Map.cs" bodystart="190" bodyend="229"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe reponsável pelo Mapa. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Map.cs" line="4" column="7" bodyfile="Map.cs" bodystart="4" bodyend="230"/>
+    <listofallmembers>
+      <member refid="class_map_1a4943498c9e9b166cf480205602e41ebc" prot="private" virt="non-virtual"><scope>Map</scope><name>GenerateCoord</name></member>
+      <member refid="class_map_1a137179d359e82a5508c41bba28fd3d18" prot="private" virt="non-virtual"><scope>Map</scope><name>GenerateFixed</name></member>
+      <member refid="class_map_1a1a86a3d838134dda2f452f695145d25f" prot="private" virt="non-virtual"><scope>Map</scope><name>GenerateRandom</name></member>
+      <member refid="class_map_1a3ece09ebeb73e5288a93117edc7ac99b" prot="private" virt="non-virtual"><scope>Map</scope><name>GetJewel</name></member>
+      <member refid="class_map_1a503c1188981bd56583b4036ef70c67aa" prot="public" virt="non-virtual"><scope>Map</scope><name>GetJewels</name></member>
+      <member refid="class_map_1a58b5d5bdae42092eec6502666412ad12" prot="public" virt="non-virtual"><scope>Map</scope><name>GetRechargeable</name></member>
+      <member refid="class_map_1a719722cf9ff9a60065ba3189a64f121b" prot="public" virt="non-virtual"><scope>Map</scope><name>h</name></member>
+      <member refid="class_map_1a6ff9fe11efd0d163cbf10277a29bb6a3" prot="public" virt="non-virtual"><scope>Map</scope><name>Insert</name></member>
+      <member refid="class_map_1a87c52673cfd405cb9f26cfd34eb690dc" prot="private" virt="non-virtual"><scope>Map</scope><name>IsAllowed</name></member>
+      <member refid="class_map_1a2107d47822831fb927575581bc107f85" prot="public" virt="non-virtual"><scope>Map</scope><name>IsDone</name></member>
+      <member refid="class_map_1ab326bc3a1505c760330718c34692e9cd" prot="private" virt="non-virtual"><scope>Map</scope><name>IsRadioctive</name></member>
+      <member refid="class_map_1a2a52033bc07a7ccc160285a93484513e" prot="public" virt="non-virtual"><scope>Map</scope><name>Map</name></member>
+      <member refid="class_map_1aab82e8a7ed4c1a55d773cffebf0b0c4d" prot="private" virt="non-virtual"><scope>Map</scope><name>Matriz</name></member>
+      <member refid="class_map_1aff8e2d6feab4dea63ab4537c0898b303" prot="public" virt="non-virtual"><scope>Map</scope><name>Print</name></member>
+      <member refid="class_map_1a688c2704d7a5b3268433d1c8fc5333b4" prot="public" virt="non-virtual"><scope>Map</scope><name>Radiation</name></member>
+      <member refid="class_map_1ae2cb91de719b12493e9c954f6feb81fa" prot="public" virt="non-virtual"><scope>Map</scope><name>Update</name></member>
+      <member refid="class_map_1a63b4597ab80572da3ea5def454b4eced" prot="public" virt="non-virtual"><scope>Map</scope><name>w</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

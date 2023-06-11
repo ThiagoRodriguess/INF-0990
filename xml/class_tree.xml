@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_tree" kind="class" language="C#" prot="public">
+    <compoundname>Tree</compoundname>
+    <basecompoundref refid="class_obstacle" prot="public" virt="non-virtual">Obstacle</basecompoundref>
+    <basecompoundref refid="interface_rechargeable" prot="public" virt="non-virtual">Rechargeable</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tree_1a207c06111ed2f0d99ab87d4a2e248f32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tree.Tree</definition>
+        <argsstring>()</argsstring>
+        <name>Tree</name>
+        <qualifiedname>Tree.Tree</qualifiedname>
+        <briefdescription>
+<para>Atribui simbolo da árvore. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="8" column="12" bodyfile="Tree.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_1ae0a212595cfe56b9b4acd5e1c1825914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tree.Recharge</definition>
+        <argsstring>(Robot r)</argsstring>
+        <name>Recharge</name>
+        <qualifiedname>Tree.Recharge</qualifiedname>
+        <reimplements refid="interface_rechargeable_1a43eacd53f240550161b5ac3ea8933d63">Recharge</reimplements>
+        <param>
+          <type><ref refid="class_robot" kindref="compound">Robot</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Incrementa energia ao estar pressionar &quot;G&quot; junto a árvore. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="12" column="17" bodyfile="Tree.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe responsável pelo item do mapa árvore. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="2">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Rechargeable</label>
+        <link refid="interface_rechargeable"/>
+      </node>
+      <node id="1">
+        <label>Tree</label>
+        <link refid="class_tree"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="2">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Rechargeable</label>
+        <link refid="interface_rechargeable"/>
+      </node>
+      <node id="1">
+        <label>Tree</label>
+        <link refid="class_tree"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tree.cs" line="4" column="7" bodyfile="Tree.cs" bodystart="4" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" virt="non-virtual"><scope>Tree</scope><name>ItemMap</name></member>
+      <member refid="class_obstacle_1a8835c8c949810ff2d75f031df65097ef" prot="public" virt="non-virtual"><scope>Tree</scope><name>Obstacle</name></member>
+      <member refid="class_tree_1ae0a212595cfe56b9b4acd5e1c1825914" prot="public" virt="non-virtual"><scope>Tree</scope><name>Recharge</name></member>
+      <member refid="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" virt="non-virtual"><scope>Tree</scope><name>ToString</name></member>
+      <member refid="class_tree_1a207c06111ed2f0d99ab87d4a2e248f32" prot="public" virt="non-virtual"><scope>Tree</scope><name>Tree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

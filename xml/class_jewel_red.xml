@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_jewel_red" kind="class" language="C#" prot="public">
+    <compoundname>JewelRed</compoundname>
+    <basecompoundref refid="class_jewel" prot="public" virt="non-virtual">Jewel</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_jewel_red_1a82cf9c65d1bd39b8a772214daf2c8f58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JewelRed.JewelRed</definition>
+        <argsstring>()</argsstring>
+        <name>JewelRed</name>
+        <qualifiedname>JewelRed.JewelRed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JewelRed.cs" line="5" column="12" bodyfile="JewelRed.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe reponsável pela Jóia Vermelha e pontuação. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="class_jewel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>JewelRed</label>
+        <link refid="class_jewel_red"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="class_jewel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>JewelRed</label>
+        <link refid="class_jewel_red"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="JewelRed.cs" line="4" column="7" bodyfile="JewelRed.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" virt="non-virtual"><scope>JewelRed</scope><name>ItemMap</name></member>
+      <member refid="class_jewel_1acc9b3994dd6b26249155b6d28c47af27" prot="public" virt="non-virtual"><scope>JewelRed</scope><name>Jewel</name></member>
+      <member refid="class_jewel_red_1a82cf9c65d1bd39b8a772214daf2c8f58" prot="public" virt="non-virtual"><scope>JewelRed</scope><name>JewelRed</name></member>
+      <member refid="class_jewel_1a2467da0c2f12bd53ab4c41123ebb6592" prot="public" virt="non-virtual"><scope>JewelRed</scope><name>Points</name></member>
+      <member refid="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" virt="non-virtual"><scope>JewelRed</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

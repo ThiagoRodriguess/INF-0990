@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_item_map" kind="class" language="C#" prot="public">
+    <compoundname>ItemMap</compoundname>
+    <derivedcompoundref refid="class_empty" prot="public" virt="non-virtual">Empty</derivedcompoundref>
+    <derivedcompoundref refid="class_jewel" prot="public" virt="non-virtual">Jewel</derivedcompoundref>
+    <derivedcompoundref refid="class_obstacle" prot="public" virt="non-virtual">Obstacle</derivedcompoundref>
+    <derivedcompoundref refid="class_radioctive" prot="public" virt="non-virtual">Radioctive</derivedcompoundref>
+    <derivedcompoundref refid="class_robot" prot="public" virt="non-virtual">Robot</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_item_map_1a483424e89a921fa1daccee568febe2d8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ItemMap.Symbol</definition>
+        <argsstring></argsstring>
+        <name>Symbol</name>
+        <qualifiedname>ItemMap.Symbol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ItemMap.cs" line="5" column="20" bodyfile="ItemMap.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ItemMap.ItemMap</definition>
+        <argsstring>(string Symbol)</argsstring>
+        <name>ItemMap</name>
+        <qualifiedname>ItemMap.ItemMap</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>Symbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ItemMap.cs" line="6" column="12" bodyfile="ItemMap.cs" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sealed override string</type>
+        <definition>sealed override string ItemMap.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>ItemMap.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ItemMap.cs" line="10" column="35" bodyfile="ItemMap.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe responsável pelos itens Jewels e espaços vazios. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Empty</label>
+        <link refid="class_empty"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="3">
+        <label>Jewel</label>
+        <link refid="class_jewel"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>JewelBlue</label>
+        <link refid="class_jewel_blue"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>JewelGreen</label>
+        <link refid="class_jewel_green"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>JewelRed</label>
+        <link refid="class_jewel_red"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Radioctive</label>
+        <link refid="class_radioctive"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Robot</label>
+        <link refid="class_robot"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Tree</label>
+        <link refid="class_tree"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Water</label>
+        <link refid="class_water"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="ItemMap.cs" line="4" column="17" bodyfile="ItemMap.cs" bodystart="4" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" virt="non-virtual"><scope>ItemMap</scope><name>ItemMap</name></member>
+      <member refid="class_item_map_1a483424e89a921fa1daccee568febe2d8" prot="private" virt="non-virtual"><scope>ItemMap</scope><name>Symbol</name></member>
+      <member refid="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" virt="non-virtual"><scope>ItemMap</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

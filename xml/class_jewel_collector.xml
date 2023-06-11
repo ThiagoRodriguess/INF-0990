@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_jewel_collector" kind="class" language="C#" prot="public">
+    <compoundname>JewelCollector</compoundname>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_jewel_collector_1aa500ee617b93e165c782a69cd09cc480" prot="private" static="yes" add="no" remove="no" raise="no">
+        <type>MoveNorth</type>
+        <definition>MoveNorth JewelCollector.OnMoveNorth</definition>
+        <argsstring></argsstring>
+        <name>OnMoveNorth</name>
+        <qualifiedname>JewelCollector.OnMoveNorth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="11" column="28" bodyfile="Program.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_jewel_collector_1ae33a8cf5950f058d1ae8f605ad392400" prot="private" static="yes" add="no" remove="no" raise="no">
+        <type>MoveSouth</type>
+        <definition>MoveSouth JewelCollector.OnMoveSouth</definition>
+        <argsstring></argsstring>
+        <name>OnMoveSouth</name>
+        <qualifiedname>JewelCollector.OnMoveSouth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="12" column="28" bodyfile="Program.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_jewel_collector_1a48642e2a21a78d42c38e0c09dbed8a9d" prot="private" static="yes" add="no" remove="no" raise="no">
+        <type>MoveEast</type>
+        <definition>MoveEast JewelCollector.OnMoveEast</definition>
+        <argsstring></argsstring>
+        <name>OnMoveEast</name>
+        <qualifiedname>JewelCollector.OnMoveEast</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="13" column="27" bodyfile="Program.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_jewel_collector_1a7416c78d0d4bbbae0f468313d75d8954" prot="private" static="yes" add="no" remove="no" raise="no">
+        <type>MoveWest</type>
+        <definition>MoveWest JewelCollector.OnMoveWest</definition>
+        <argsstring></argsstring>
+        <name>OnMoveWest</name>
+        <qualifiedname>JewelCollector.OnMoveWest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="15" column="27" bodyfile="Program.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_jewel_collector_1a1df163630f404a1c79203c5cae8e91e3" prot="private" static="yes" add="no" remove="no" raise="no">
+        <type>MoveWest</type>
+        <definition>MoveWest JewelCollector.Get</definition>
+        <argsstring></argsstring>
+        <name>Get</name>
+        <qualifiedname>JewelCollector.Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="17" column="27" bodyfile="Program.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_jewel_collector_1a3b3bef3835721be90813909859db3bff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void JewelCollector.MoveNorth</definition>
+        <argsstring>()</argsstring>
+        <name>MoveNorth</name>
+        <qualifiedname>JewelCollector.MoveNorth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="5" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_jewel_collector_1a3a8086bfed4e7b0879808172f4162e9c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void JewelCollector.MoveSouth</definition>
+        <argsstring>()</argsstring>
+        <name>MoveSouth</name>
+        <qualifiedname>JewelCollector.MoveSouth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="6" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_jewel_collector_1a80671127649411791af19321e258bc38" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void JewelCollector.MoveEast</definition>
+        <argsstring>()</argsstring>
+        <name>MoveEast</name>
+        <qualifiedname>JewelCollector.MoveEast</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="7" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_jewel_collector_1a6cf11bbe9ea94e644b651a610f764f79" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void JewelCollector.MoveWest</definition>
+        <argsstring>()</argsstring>
+        <name>MoveWest</name>
+        <qualifiedname>JewelCollector.MoveWest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="9" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_jewel_collector_1aa8e5acb949e7b37d9c33f2a27d93eb8d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void JewelCollector.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>JewelCollector.Main</qualifiedname>
+        <briefdescription>
+<para>Método principal, inicia o jogo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="21" column="24" bodyfile="Program.cs" bodystart="21" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_jewel_collector_1a385d54aedb148320bf288f8629b87950" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool JewelCollector.Run</definition>
+        <argsstring>(Robot robot)</argsstring>
+        <name>Run</name>
+        <qualifiedname>JewelCollector.Run</qualifiedname>
+        <param>
+          <type><ref refid="class_robot" kindref="compound">Robot</ref></type>
+          <declname>robot</declname>
+        </param>
+        <briefdescription>
+<para>Responsável pela leitura do teclado, e atribuição aos eventos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="55" column="25" bodyfile="Program.cs" bodystart="55" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe responsável pelos delegates e eventos de movimentação do robo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Program.cs" line="4" column="7" bodyfile="Program.cs" bodystart="4" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_jewel_collector_1a1df163630f404a1c79203c5cae8e91e3" prot="private" virt="non-virtual"><scope>JewelCollector</scope><name>Get</name></member>
+      <member refid="class_jewel_collector_1aa8e5acb949e7b37d9c33f2a27d93eb8d" prot="public" virt="non-virtual"><scope>JewelCollector</scope><name>Main</name></member>
+      <member refid="class_jewel_collector_1a80671127649411791af19321e258bc38" prot="private" virt="non-virtual"><scope>JewelCollector</scope><name>MoveEast</name></member>
+      <member refid="class_jewel_collector_1a3b3bef3835721be90813909859db3bff" prot="private" virt="non-virtual"><scope>JewelCollector</scope><name>MoveNorth</name></member>
+      <member refid="class_jewel_collector_1a3a8086bfed4e7b0879808172f4162e9c" prot="private" virt="non-virtual"><scope>JewelCollector</scope><name>MoveSouth</name></member>
+      <member refid="class_jewel_collector_1a6cf11bbe9ea94e644b651a610f764f79" prot="private" virt="non-virtual"><scope>JewelCollector</scope><name>MoveWest</name></member>
+      <member refid="class_jewel_collector_1a48642e2a21a78d42c38e0c09dbed8a9d" prot="private" virt="non-virtual"><scope>JewelCollector</scope><name>OnMoveEast</name></member>
+      <member refid="class_jewel_collector_1aa500ee617b93e165c782a69cd09cc480" prot="private" virt="non-virtual"><scope>JewelCollector</scope><name>OnMoveNorth</name></member>
+      <member refid="class_jewel_collector_1ae33a8cf5950f058d1ae8f605ad392400" prot="private" virt="non-virtual"><scope>JewelCollector</scope><name>OnMoveSouth</name></member>
+      <member refid="class_jewel_collector_1a7416c78d0d4bbbae0f468313d75d8954" prot="private" virt="non-virtual"><scope>JewelCollector</scope><name>OnMoveWest</name></member>
+      <member refid="class_jewel_collector_1a385d54aedb148320bf288f8629b87950" prot="private" virt="non-virtual"><scope>JewelCollector</scope><name>Run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

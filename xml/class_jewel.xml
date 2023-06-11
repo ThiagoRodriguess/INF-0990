@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_jewel" kind="class" language="C#" prot="public">
+    <compoundname>Jewel</compoundname>
+    <basecompoundref refid="class_item_map" prot="public" virt="non-virtual">ItemMap</basecompoundref>
+    <derivedcompoundref refid="class_jewel_blue" prot="public" virt="non-virtual">JewelBlue</derivedcompoundref>
+    <derivedcompoundref refid="class_jewel_green" prot="public" virt="non-virtual">JewelGreen</derivedcompoundref>
+    <derivedcompoundref refid="class_jewel_red" prot="public" virt="non-virtual">JewelRed</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_jewel_1a2467da0c2f12bd53ab4c41123ebb6592" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int Jewel.Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <qualifiedname>Jewel.Points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Jewel.cs" line="5" column="16" bodyfile="Jewel.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_jewel_1acc9b3994dd6b26249155b6d28c47af27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Jewel.Jewel</definition>
+        <argsstring>(string Symbol, int Points)</argsstring>
+        <name>Jewel</name>
+        <qualifiedname>Jewel.Jewel</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>Symbol</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Jewel.cs" line="6" column="12" bodyfile="Jewel.cs" bodystart="6" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe responsável pelas Jóias e contabilizar pontuação. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="1">
+        <label>Jewel</label>
+        <link refid="class_jewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>JewelBlue</label>
+        <link refid="class_jewel_blue"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>JewelGreen</label>
+        <link refid="class_jewel_green"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>JewelRed</label>
+        <link refid="class_jewel_red"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="1">
+        <label>Jewel</label>
+        <link refid="class_jewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Jewel.cs" line="4" column="17" bodyfile="Jewel.cs" bodystart="4" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" virt="non-virtual"><scope>Jewel</scope><name>ItemMap</name></member>
+      <member refid="class_jewel_1acc9b3994dd6b26249155b6d28c47af27" prot="public" virt="non-virtual"><scope>Jewel</scope><name>Jewel</name></member>
+      <member refid="class_jewel_1a2467da0c2f12bd53ab4c41123ebb6592" prot="public" virt="non-virtual"><scope>Jewel</scope><name>Points</name></member>
+      <member refid="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" virt="non-virtual"><scope>Jewel</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

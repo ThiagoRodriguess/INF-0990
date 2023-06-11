@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="_exception_8cs" kind="file" language="C#">
+    <compoundname>Exception.cs</compoundname>
+    <innerclass refid="class_out_of_map_exception" prot="public">OutOfMapException</innerclass>
+    <innerclass refid="class_occupied_position_exception" prot="public">OccupiedPositionException</innerclass>
+    <innerclass refid="class_ran_out_of_energy_exception" prot="public">RanOutOfEnergyException</innerclass>
+    <innerclass refid="class_nothing_to_collect_exception" prot="public">NothingToCollectException</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4" refid="class_out_of_map_exception" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_out_of_map_exception" kindref="compound">OutOfMapException</ref><sp/>:<sp/>Exception<sp/>{}</highlight></codeline>
+<codeline lineno="5" refid="class_occupied_position_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_occupied_position_exception" kindref="compound">OccupiedPositionException</ref><sp/>:<sp/>Exception<sp/>{}</highlight></codeline>
+<codeline lineno="6" refid="class_ran_out_of_energy_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ran_out_of_energy_exception" kindref="compound">RanOutOfEnergyException</ref><sp/>:<sp/>Exception<sp/>{}</highlight></codeline>
+<codeline lineno="7" refid="class_nothing_to_collect_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_nothing_to_collect_exception" kindref="compound">NothingToCollectException</ref><sp/>:<sp/>Exception<sp/>{}</highlight></codeline>
+    </programlisting>
+    <location file="Exception.cs"/>
+  </compounddef>
+</doxygen>

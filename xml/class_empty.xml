@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_empty" kind="class" language="C#" prot="public">
+    <compoundname>Empty</compoundname>
+    <basecompoundref refid="class_item_map" prot="public" virt="non-virtual">ItemMap</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_empty_1a8b8c47417648e248f5cb9ab0c23cd0bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Empty.Empty</definition>
+        <argsstring>()</argsstring>
+        <name>Empty</name>
+        <qualifiedname>Empty.Empty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Empty.cs" line="5" column="12" bodyfile="Empty.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe pública responsável pelos itens vázios do mapa. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Empty</label>
+        <link refid="class_empty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Empty</label>
+        <link refid="class_empty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+    </collaborationgraph>
+    <location file="Empty.cs" line="4" column="7" bodyfile="Empty.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="class_empty_1a8b8c47417648e248f5cb9ab0c23cd0bb" prot="public" virt="non-virtual"><scope>Empty</scope><name>Empty</name></member>
+      <member refid="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" virt="non-virtual"><scope>Empty</scope><name>ItemMap</name></member>
+      <member refid="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" virt="non-virtual"><scope>Empty</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

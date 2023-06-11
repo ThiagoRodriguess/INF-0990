@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="_tree_8cs" kind="file" language="C#">
+    <compoundname>Tree.cs</compoundname>
+    <innerclass refid="class_tree" prot="public">Tree</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4" refid="class_tree" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_tree" kindref="compound">Tree</ref><sp/>:<sp/><ref refid="class_obstacle" kindref="compound">Obstacle</ref>,<sp/><ref refid="interface_rechargeable" kindref="compound">Rechargeable</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_tree_1a207c06111ed2f0d99ab87d4a2e248f32" kindref="member">Tree</ref>()<sp/>:<sp/>base(</highlight><highlight class="stringliteral">&quot;$$<sp/>&quot;</highlight><highlight class="normal">)<sp/>{}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_tree_1ae0a212595cfe56b9b4acd5e1c1825914" kindref="member">Recharge</ref>(<ref refid="class_robot" kindref="compound">Robot</ref><sp/>r)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.<ref refid="class_robot_1ad7d9a7fd949f73f86f62e0d5247b212a" kindref="member">energy</ref>++;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.<ref refid="class_robot_1ad7d9a7fd949f73f86f62e0d5247b212a" kindref="member">energy</ref>++;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.<ref refid="class_robot_1ad7d9a7fd949f73f86f62e0d5247b212a" kindref="member">energy</ref>++;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Tree.cs"/>
+  </compounddef>
+</doxygen>

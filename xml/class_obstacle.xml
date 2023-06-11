@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_obstacle" kind="class" language="C#" prot="public">
+    <compoundname>Obstacle</compoundname>
+    <basecompoundref refid="class_item_map" prot="public" virt="non-virtual">ItemMap</basecompoundref>
+    <derivedcompoundref refid="class_tree" prot="public" virt="non-virtual">Tree</derivedcompoundref>
+    <derivedcompoundref refid="class_water" prot="public" virt="non-virtual">Water</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_obstacle_1a8835c8c949810ff2d75f031df65097ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Obstacle.Obstacle</definition>
+        <argsstring>(string Symbol)</argsstring>
+        <name>Obstacle</name>
+        <qualifiedname>Obstacle.Obstacle</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>Symbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Obstacle.cs" line="5" column="12" bodyfile="Obstacle.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe responsável pelo itens do mapa, em específico os obstáculos. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="1">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Tree</label>
+        <link refid="class_tree"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Water</label>
+        <link refid="class_water"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="1">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Obstacle.cs" line="4" column="17" bodyfile="Obstacle.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" virt="non-virtual"><scope>Obstacle</scope><name>ItemMap</name></member>
+      <member refid="class_obstacle_1a8835c8c949810ff2d75f031df65097ef" prot="public" virt="non-virtual"><scope>Obstacle</scope><name>Obstacle</name></member>
+      <member refid="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" virt="non-virtual"><scope>Obstacle</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

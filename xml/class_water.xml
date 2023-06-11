@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_water" kind="class" language="C#" prot="public">
+    <compoundname>Water</compoundname>
+    <basecompoundref refid="class_obstacle" prot="public" virt="non-virtual">Obstacle</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_water_1ad638e85eb985070a0ce2adf5a5b4e1fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Water.Water</definition>
+        <argsstring>()</argsstring>
+        <name>Water</name>
+        <qualifiedname>Water.Water</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Water.cs" line="5" column="12" bodyfile="Water.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe responsável pelo obstáculo água no mapa, e sua representação visual. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="2">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Water</label>
+        <link refid="class_water"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="2">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Water</label>
+        <link refid="class_water"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Water.cs" line="4" column="7" bodyfile="Water.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" virt="non-virtual"><scope>Water</scope><name>ItemMap</name></member>
+      <member refid="class_obstacle_1a8835c8c949810ff2d75f031df65097ef" prot="public" virt="non-virtual"><scope>Water</scope><name>Obstacle</name></member>
+      <member refid="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" virt="non-virtual"><scope>Water</scope><name>ToString</name></member>
+      <member refid="class_water_1ad638e85eb985070a0ce2adf5a5b4e1fa" prot="public" virt="non-virtual"><scope>Water</scope><name>Water</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

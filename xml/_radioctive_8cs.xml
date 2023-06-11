@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="_radioctive_8cs" kind="file" language="C#">
+    <compoundname>Radioctive.cs</compoundname>
+    <innerclass refid="class_radioctive" prot="public">Radioctive</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4" refid="class_radioctive" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_radioctive" kindref="compound">Radioctive</ref><sp/>:<sp/><ref refid="class_item_map" kindref="compound">ItemMap</ref>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_radioctive_1a6ffec1fe6d9d9c6841abf88be0c17290" kindref="member">Radioctive</ref>()<sp/>:<sp/>base(</highlight><highlight class="stringliteral">&quot;!!<sp/>&quot;</highlight><highlight class="normal">){}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Radioctive.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_radioctive" kind="class" language="C#" prot="public">
+    <compoundname>Radioctive</compoundname>
+    <basecompoundref refid="class_item_map" prot="public" virt="non-virtual">ItemMap</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_radioctive_1a6ffec1fe6d9d9c6841abf88be0c17290" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Radioctive.Radioctive</definition>
+        <argsstring>()</argsstring>
+        <name>Radioctive</name>
+        <qualifiedname>Radioctive.Radioctive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Radioctive.cs" line="5" column="12" bodyfile="Radioctive.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe responsável pelo radiação no mapa e sua representação visual. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="1">
+        <label>Radioctive</label>
+        <link refid="class_radioctive"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="1">
+        <label>Radioctive</label>
+        <link refid="class_radioctive"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Radioctive.cs" line="4" column="7" bodyfile="Radioctive.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" virt="non-virtual"><scope>Radioctive</scope><name>ItemMap</name></member>
+      <member refid="class_radioctive_1a6ffec1fe6d9d9c6841abf88be0c17290" prot="public" virt="non-virtual"><scope>Radioctive</scope><name>Radioctive</name></member>
+      <member refid="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" virt="non-virtual"><scope>Radioctive</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

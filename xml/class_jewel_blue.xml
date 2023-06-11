@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_jewel_blue" kind="class" language="C#" prot="public">
+    <compoundname>JewelBlue</compoundname>
+    <basecompoundref refid="class_jewel" prot="public" virt="non-virtual">Jewel</basecompoundref>
+    <basecompoundref refid="interface_rechargeable" prot="public" virt="non-virtual">Rechargeable</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_jewel_blue_1a50c89bb3598c95ee87dff3015d97d3b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JewelBlue.Recharge</definition>
+        <argsstring>(Robot r)</argsstring>
+        <name>Recharge</name>
+        <qualifiedname>JewelBlue.Recharge</qualifiedname>
+        <reimplements refid="interface_rechargeable_1a43eacd53f240550161b5ac3ea8933d63">Recharge</reimplements>
+        <param>
+          <type><ref refid="class_robot" kindref="compound">Robot</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JewelBlue.cs" line="6" column="17" bodyfile="JewelBlue.cs" bodystart="6" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_jewel_blue_1a383972c559a656f306add9418a5fb6d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JewelBlue.JewelBlue</definition>
+        <argsstring>()</argsstring>
+        <name>JewelBlue</name>
+        <qualifiedname>JewelBlue.JewelBlue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JewelBlue.cs" line="13" column="12" bodyfile="JewelBlue.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe reponsável pela Jóia Azul, pontuação e recarregar energia. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="class_jewel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>JewelBlue</label>
+        <link refid="class_jewel_blue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Rechargeable</label>
+        <link refid="interface_rechargeable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ItemMap</label>
+        <link refid="class_item_map"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="class_jewel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>JewelBlue</label>
+        <link refid="class_jewel_blue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Rechargeable</label>
+        <link refid="interface_rechargeable"/>
+      </node>
+    </collaborationgraph>
+    <location file="JewelBlue.cs" line="4" column="7" bodyfile="JewelBlue.cs" bodystart="4" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_item_map_1a23e7de63458c5a2d954cacefa9586604" prot="public" virt="non-virtual"><scope>JewelBlue</scope><name>ItemMap</name></member>
+      <member refid="class_jewel_1acc9b3994dd6b26249155b6d28c47af27" prot="public" virt="non-virtual"><scope>JewelBlue</scope><name>Jewel</name></member>
+      <member refid="class_jewel_blue_1a383972c559a656f306add9418a5fb6d0" prot="public" virt="non-virtual"><scope>JewelBlue</scope><name>JewelBlue</name></member>
+      <member refid="class_jewel_1a2467da0c2f12bd53ab4c41123ebb6592" prot="public" virt="non-virtual"><scope>JewelBlue</scope><name>Points</name></member>
+      <member refid="class_jewel_blue_1a50c89bb3598c95ee87dff3015d97d3b9" prot="public" virt="non-virtual"><scope>JewelBlue</scope><name>Recharge</name></member>
+      <member refid="class_item_map_1abf9189e62cb410e3cae27a6aec700750" prot="public" virt="non-virtual"><scope>JewelBlue</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="interface_rechargeable" kind="interface" language="C#" prot="public">
+    <compoundname>Rechargeable</compoundname>
+    <derivedcompoundref refid="class_jewel_blue" prot="public" virt="non-virtual">JewelBlue</derivedcompoundref>
+    <derivedcompoundref refid="class_tree" prot="public" virt="non-virtual">Tree</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_rechargeable_1a43eacd53f240550161b5ac3ea8933d63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rechargeable.Recharge</definition>
+        <argsstring>(Robot r)</argsstring>
+        <name>Recharge</name>
+        <qualifiedname>Rechargeable.Recharge</qualifiedname>
+        <reimplementedby refid="class_jewel_blue_1a50c89bb3598c95ee87dff3015d97d3b9">Recharge</reimplementedby>
+        <reimplementedby refid="class_tree_1ae0a212595cfe56b9b4acd5e1c1825914">Recharge</reimplementedby>
+        <param>
+          <type><ref refid="class_robot" kindref="compound">Robot</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rechargeable.cs" line="6" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Responsável por recarregar a energia do robo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>JewelBlue</label>
+        <link refid="class_jewel_blue"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Rechargeable</label>
+        <link refid="interface_rechargeable"/>
+      </node>
+      <node id="3">
+        <label>Tree</label>
+        <link refid="class_tree"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Rechargeable.cs" line="4" column="18" bodyfile="Rechargeable.cs" bodystart="5" bodyend="7"/>
+    <listofallmembers>
+      <member refid="interface_rechargeable_1a43eacd53f240550161b5ac3ea8933d63" prot="public" virt="non-virtual"><scope>Rechargeable</scope><name>Recharge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
