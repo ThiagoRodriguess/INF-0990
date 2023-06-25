@@ -68,6 +68,10 @@ public class Map{
             Jewel? jewel = GetJewel(Coords[i, 0], Coords[i, 1]);
             if (jewel is not null) NearJewels.Add(jewel);
         }
+        // if que verifica se a lista ta vazia, caso esteja, lança a exceção.
+        if (NearJewels.Count == 0){
+            throw new NothingToCollectException();
+        }
         return NearJewels;
     }
     /// <summary>
@@ -89,8 +93,8 @@ public class Map{
         int[,] Coords = GenerateCoord(x, y);
         for (int i = 0; i < Coords.GetLength(0); i++)
             if (Matriz[Coords[i, 0], Coords[i, 1]] is Rechargeable r) return r;
-        throw new NothingToCollectException();
-    }
+        return null;
+    }   
     /// <summary>
     /// Responsável por Gerar coordenadas.
     /// </summary>

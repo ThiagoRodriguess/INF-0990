@@ -126,9 +126,9 @@ public class Robot : ItemMap {
             Bag.Add(j);
             }
         catch (NothingToCollectException e)
-        {
+            {
             Console.WriteLine("Nothing to collect");
-        }
+            }
         
     }
     /// <summary>

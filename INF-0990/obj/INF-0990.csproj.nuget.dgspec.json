@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\thiag\\OneDrive\\Documentos\\INF-0990\\inf0990_final_project_csharp\\INF-0990\\INF-0990.csproj": {}
+    "c:\\Users\\thiag\\OneDrive\\Área de Trabalho\\Progamação C#\\INF-0990\\INF-0990.csproj": {}
   },
   "projects": {
-    "c:\\Users\\thiag\\OneDrive\\Documentos\\INF-0990\\inf0990_final_project_csharp\\INF-0990\\INF-0990.csproj": {
+    "c:\\Users\\thiag\\OneDrive\\Área de Trabalho\\Progamação C#\\INF-0990\\INF-0990.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\thiag\\OneDrive\\Documentos\\INF-0990\\inf0990_final_project_csharp\\INF-0990\\INF-0990.csproj",
+        "projectUniqueName": "c:\\Users\\thiag\\OneDrive\\Área de Trabalho\\Progamação C#\\INF-0990\\INF-0990.csproj",
         "projectName": "INF-0990",
-        "projectPath": "c:\\Users\\thiag\\OneDrive\\Documentos\\INF-0990\\inf0990_final_project_csharp\\INF-0990\\INF-0990.csproj",
+        "projectPath": "c:\\Users\\thiag\\OneDrive\\Área de Trabalho\\Progamação C#\\INF-0990\\INF-0990.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\thiag\\OneDrive\\Documentos\\INF-0990\\inf0990_final_project_csharp\\INF-0990\\obj\\",
+        "outputPath": "c:\\Users\\thiag\\OneDrive\\Área de Trabalho\\Progamação C#\\INF-0990\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config"
